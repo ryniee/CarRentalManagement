@@ -11,7 +11,7 @@ namespace CarRentalManagement.Shared.Domain
         public int Year { get; set; }
         public string LicensePlateNumber { get; set; }
         public int MakeID { get; set; }
-        public virtual Make Make { get; set; }
+        public virtual Makes Make { get; set; }
         public int ModelID { get; set; }
         public virtual Model Model { get; set; }
         public int ColourID { get; set; }
